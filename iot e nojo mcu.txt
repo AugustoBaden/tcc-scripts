@@ -1,0 +1,43 @@
+3.2 Internet of Things
+
+    Em Buyya (2016, p.10), Internet of Things é definido por dois pilares importantes: “Internet”e “Coisas”. O autor ressalta ainda que nem todos os objetos capazes de se conectar à Internet entrarão na categoria de “coisa” pois, essa notação é usada para encapsular um conjunto genéricode entidades, incluindo dispositivos inteligentes, sensores e até mesmo seres humanos; estandoacessível à qualquer momento e a partir de qualquer lugar. Isso implica que objetos devem seconectar sem qualquer restrição.
+    Segundo Buyya (2016, p.11), é crucial a conectividade ubíqua para IoT, e para atender as aplicações necessárias para suportar um conjunto diverso de dispositivos e protocolos de comunicação,oriundos de sensores capazes de detectar e reportar a mensagem necessária para poderosos servidores, utilizados no armazenamento, processamento e extração de conhecimentos à partir dessas informações. Isso requer integração plena dos dispositivos móveis, apetrechos responsáveis pelacomunicação, como roteadores, e claro os seres humanos como controladores.
+    Ainda segundo o autor, a tecnologia dominante no início das aplicações comerciais utilizandoIoT foi a identificação por Rádio-Frequência (RFID), porém, com o avanço das tecnologias decomunicação, das redes de sensores sem fio, e dispositivos dotados de Bluetooth, ocasionaram umamudança nesse cenário. Além de tornar viável o atendimento aos requisitos essenciais de sistemasde comunicação em tempo real, tais como: escalabilidade, suporte à heterogeneidade, integraçãototal, e processamento em tempo real.
+    De acordo com daCosta et al (2013, p.23), o desenvolvimento dessa nova arquitetura é proveniente da Internet tradicional e outras tecnologias, por isso são propostos princípios básicos, taiscomo:
+• Ser o mínimo específico, isto é, deixando a arquitetura mais aberta possível, permitindo autilização em cenários diversos;
+• Os sistemas devem ser projetados para que quando falharem, tais falhas ocorram da formamenos impactante possível;
+• Os graus de complexidade e funcionalidade da rede são aplicados somente quando necessá-rios;
+• A arquitetura é criada a partir de conceitos simples aplicados em sistemas complexos, quecaptam sinais analógicos oriundos de fenômenos naturais;
+• Possibilitar que dados sejam extraídos em tempo real.
+    A arquitetura emergente da Internet das Coisas pretende ser mais inclusiva para um mercado demaior variedade, reduzindo as informações que trafegam na rede. Ela deve ser extremamente tolerante às falhas, erros e conexões intermitentes naquele nível.
+
+3.2.1 Dispositivos Embarcados
+
+    Um sistema embarcado é um dispositivo eletrônico desenvolvido com um propósito muitoespecífico. Consiste em um microprocessador que é interconectado com outros componentes discretos. Cada componente é selecionado com base nos requisitos funcionais do sistema.
+    Frequentemente, sistemas embarcados menores são usados para controlar um comportamentode aspecto específico de um sistema muito mais complexo. Sistemas embarcados executam umpapel diferente de um computador de propósito geral, como os computadores de mesa (desktops).O usuário final não é capaz de alterar como o dispositivo funciona
+    Suas principais vantagens são:
+    • Baixo custo;
+    • Desempenho aprimorado;
+    • Confiabilidade.
+    Segundo Shukla (2016, p.15), há quatro categorias de sistemas embarcados, são elas:
+    • Computação geral, com aplicação semelhante aos computadores de mesa, mas em hardwareembarcado;
+    • Sistemas de controle, aplicado em sistemas de controle com resposta em tempo real;
+    • Processamento de sinais, aplicado na computação envolvendo grandes taxas de transmissão;
+    • Comunicação e Redes, empregado na infraestrutura de comunicação, em roteadores etc.Neste trabalho foi utilizada a plataforma de prototipagem NodeMCU que, consiste em um microprocessador embarcado capaz de se conectar facilmente às redes de comunicação.
+    Neste trabalho foi utilizada a plataforma de prototipagem NodeMCU que, consiste em um microprocessador embarcado capaz de se conectar facilmente às redes de comunicação.
+
+3.2.2 ESP8266/NodeMCU
+    De acordo com Kodali et al (2017, p.4), o NodeMCU se trata de uma solução altamente integrada e de baixo consumo. Composto por GPIOs (General Purpose Input Output), um chip 12C,ADC (Analog Digital Converter), DAC (Digital Analog Converter), PWM (Pulse Width Modulation), Wi-Fi, regulador de tensão e uma conexão USB (Universal Serial Bus.
+A Tabela 1 expõe algumas características do ESP8266:Tabela 1: Características de hardware ESP8266.
+
+Componente              Detalhes
+Processador             Tensilica L-106 32 bits 80 MHz
+Voltagem operacional    2.5V ~3.6V
+Corrente operacional    ~ 80mA
+Frequência de operação  (Wi-Fi) 2.4 GHz ~ 2.5 GHz Tx/Rx
+Protocolos de rede      IPv4, TCP/UDP/HTTP/FTP
+Segurança               WPA2  Encriptação WEP/TKIP/AES
+Memória RAM             64 KB de memória para instruçõesMemória 
+ROM                     96 KB de memória para dados
+GPIO                    16 pinos.
+

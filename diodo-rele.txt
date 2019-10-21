@@ -1,0 +1,14 @@
+Diodo
+    Um diodo é um componente eletrônico de dois terminais que conduzem corrente primordialmente numa direção (também chamado de condutância assimétrica), dotado de baixíssima resistência num dos polos e alta resistência no outro. O diodo mais comum é o dotipo semicondutor, que consiste de uma peça de cristalina de material semicondutor com extremidades conectadas a um terminal elétrico cada. Esse tipo de construção é chamado dep-n e o mineral dopado empregado pode ser de silício ou germânio.
+    Quando as duas extremidades cristalinas estão conectadas, o fluxo de elétrons transidado polo n (que está conectado ao polo negativo de uma fonte de corrente, cátodo) ao polo p(ânodo, conectado ao polo oposto, positivo.
+    A junção dessas partes cria uma terceira região, chamada de ’região de depleção’, ondenão há portadores de carga. Quando os terminais do diodo estão conectados, quando umpotencial elétrico é aplicado ao lado P (ânodo), o lado N (cátodo) permite que elétrons atravessem a região de depleção, vindos do lado N para o lando P. Entretanto, o fluxo oposto nãoé permitido, criando em princípio uma válvula elétrico.
+    Diodo retificador:
+Além de atuar como “válvulas elétricas”, os diodos podem ser empregados como retifi-cadores de sinais elétricos, aplicados tanto em sistemas monofásicos como multifásicos.A retificação de uma onda completa através de um único diodo, converte toda a formade onda que entra no circuito, numa nova onda com apenas uma polaridade.
+
+Relé
+
+3.3.3 Relé
+
+    Um relé é um comutador operado eletricamente. Também conhecido como relays, utilizam os princípios do eletromagnetismo para seu funcionamento. Tal mecanismo é empregadoonde for necessário controlar um circuito elétrico através de um sinal de baixa potencia, ouonde circuitos devem ser acionados através de um único sinal.
+    Basicamente consiste de uma bobina de fios rodeando um núcleo de ferro, um solenoide,um cabeçote de ferro proporciona um percurso para fluxo magnético com baixíssima resistência, uma carcaça móvel de ferro e um mais conjuntos de contatos. A carcaça.é dobrada16sobre o cabeçote e mecanicamente ligada ao conjunto de contatos. A carcaça é mantida nolugar por uma mola, de modo que, quando o relé é desenergizado, há um espaço de ar nocircuito magnético. Dessa forma, um dos contatos pe fechado e o outro é aberto, conduzindocorrente elétrica.
+    Quando a bobina é energizada com uma corrente direta, um deve ser interposto atravésda bobina para dissipar a energia originada no campo magnético no momento da sua suspensão, que pode provocar também perigosos picos de tensão nos componentes do circuito. Aprincipio, eram empregados transistores de germânio para evitar tais surtos de tensão, entretanto os mesmos era facilmente destruídos durante tais eventos, assim os diodos tornaram-semuito populares na proteção de circuitos dotados de componentes eletromecânico
