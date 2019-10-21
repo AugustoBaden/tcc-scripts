@@ -5,4 +5,4 @@
     Neste trabalho foi utilizado o software Apache da família 2.x que se destaca pelo seu desempenho e flexibilidade.
     Segundo Tanenbaum et al (2006, p.556), o servidor web Apache é um software completo,com diversas melhorias para suportar os tipos de arquivos presentes na web, com configuraçãoprofundamente personalizáveis e, ao mesmo tempo, independente de plataformas específicas, ouseja, capaz de prover seu próprio ambiente de desenvolvimento e posteriormente implementá-lo emoutros sistemas operacionais.
     Ainda em Tanenbaum et al (2006, p.557), é informado que devido os navegadores, os servidores web utilizam HTTP (HyperText Transfer Protocol) como protocolo de comunicação. O HTTPé virtualmente implementado no topo da pilha TCP (Transmission Control Protocol), e por essarazão o núcleo do Apache assume que todos as requisições são desse tipo; por padrão, qualquer
-requisições UDP (User Datagram Protocol) não é processada sem que antes haja modificações nonúcleo do Apach
+requisições UDP (User Datagram Protocol) não é processada sem que antes haja modificações no núcleo do Apache

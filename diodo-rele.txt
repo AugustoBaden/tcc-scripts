@@ -3,7 +3,7 @@ Diodo
     Quando as duas extremidades cristalinas estão conectadas, o fluxo de elétrons transidado polo n (que está conectado ao polo negativo de uma fonte de corrente, cátodo) ao polo p(ânodo, conectado ao polo oposto, positivo.
     A junção dessas partes cria uma terceira região, chamada de ’região de depleção’, ondenão há portadores de carga. Quando os terminais do diodo estão conectados, quando umpotencial elétrico é aplicado ao lado P (ânodo), o lado N (cátodo) permite que elétrons atravessem a região de depleção, vindos do lado N para o lando P. Entretanto, o fluxo oposto nãoé permitido, criando em princípio uma válvula elétrico.
     Diodo retificador:
-Além de atuar como “válvulas elétricas”, os diodos podem ser empregados como retifi-cadores de sinais elétricos, aplicados tanto em sistemas monofásicos como multifásicos.A retificação de uma onda completa através de um único diodo, converte toda a formade onda que entra no circuito, numa nova onda com apenas uma polaridade.
+Além de atuar como “válvulas elétricas”, os diodos podem ser empregados como retificadores de sinais elétricos, aplicados tanto em sistemas monofásicos como multifásicos.A retificação de uma onda completa através de um único diodo, converte toda a formade onda que entra no circuito, numa nova onda com apenas uma polaridade.
 
 Relé
 

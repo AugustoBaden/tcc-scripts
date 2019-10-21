@@ -39,5 +39,5 @@ Protocolos de rede      IPv4, TCP/UDP/HTTP/FTP
 Segurança               WPA2  Encriptação WEP/TKIP/AES
 Memória RAM             64 KB de memória para instruçõesMemória 
 ROM                     96 KB de memória para dados
-GPIO                    16 pinos.
+GPIO                    16 pinos
 
