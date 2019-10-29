@@ -1,0 +1,13 @@
+CREATE TABLE porta(
+portaId INT NOT NULL AUTO_INCREMENT,
+NomeLab VARCHAR(255),
+horarioEntra DATETIME,
+horarioSai DATETIME,
+PRIMARY KEY (portaId)); 
+
+CREATE TABLE usuario(
+userId INT NOT NULL AUTO_INCREMENT,
+Nome_Completo VARCHAR(255),
+login VARCHAR(255),
+senha VARCHAR(255),
+PRIMARY KEY (userId)); 
