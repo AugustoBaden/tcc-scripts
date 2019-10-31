@@ -20,13 +20,22 @@ USE `control_porta`;
 CREATE TABLE IF NOT EXISTS `porta` (
   `portaId` int(11) NOT NULL AUTO_INCREMENT,
   `NomeLab` varchar(255) DEFAULT NULL,
+  `labCode` int(11) DEFAULT NULL,
   `horarioEntra` datetime DEFAULT NULL,
   `horarioSai` datetime DEFAULT NULL,
-  PRIMARY KEY (`portaId`)
+  `userId` int(11) DEFAULT NULL,
+  PRIMARY KEY (`portaId`),
+  KEY `fk_user_porta` (`userId`),
+  CONSTRAINT `fk_user_porta` FOREIGN KEY (`userId`) REFERENCES `usuario` (`userId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela control_porta.porta: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela control_porta.porta: ~4 rows (aproximadamente)
 /*!40000 ALTER TABLE `porta` DISABLE KEYS */;
+INSERT INTO `porta` (`portaId`, `NomeLab`, `labCode`, `horarioEntra`, `horarioSai`, `userId`) VALUES
+	(1, 'digital', 1, '2019-04-19 13:08:22', '2019-04-19 13:58:22', 3),
+	(2, 'programação', 1, '2019-04-19 13:08:22', '2019-04-19 13:58:22', 1),
+	(3, 'digital', 1, '2019-04-20 20:08:22', '2019-04-20 23:58:22', 1),
+	(4, 'digital', 1, '2019-04-19 13:08:22', '2019-04-19 13:58:22', 3);
 /*!40000 ALTER TABLE `porta` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela control_porta.usuario
@@ -38,8 +47,12 @@ CREATE TABLE IF NOT EXISTS `usuario` (
   PRIMARY KEY (`userId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela control_porta.usuario: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela control_porta.usuario: ~3 rows (aproximadamente)
 /*!40000 ALTER TABLE `usuario` DISABLE KEYS */;
+INSERT INTO `usuario` (`userId`, `Nome_Completo`, `login`, `senha`) VALUES
+	(1, 'aluno', '8888', '8888'),
+	(2, 'ademir', '4444', '4444'),
+	(3, 'tiaxer', '555', '555');
 /*!40000 ALTER TABLE `usuario` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
