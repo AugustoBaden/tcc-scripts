@@ -1,8 +1,0 @@
-3.1 Arquitetura Cliente-servidor
-3.1.1 Web Server
-
-    Segundo Morimoto (2015, p.347), os servidores web são a espinha dorsal da Internet, sãoeles que hospedam todas as páginas, incluindo os mecanismos de busca e servem como base paratodo aplicativo via web. Um dos principais softwares que executam essa função é o Apache, quesuporta desde os recursos básicos como prover uma simples página em HTML (HyperText MarkupLanguage), à expansão do suporte através de módulos para linguagens de programação, bancos dedados etc. Existem vários tipos de servidores voltados para web e diversas aplicações, como e-mail,armazenamento e transferência de arquivos, armazenamento de banco de dados, etc.
-    Neste trabalho foi utilizado o software Apache da família 2.x que se destaca pelo seu desempenho e flexibilidade.
-    Segundo Tanenbaum et al (2006, p.556), o servidor web Apache é um software completo,com diversas melhorias para suportar os tipos de arquivos presentes na web, com configuraçãoprofundamente personalizáveis e, ao mesmo tempo, independente de plataformas específicas, ouseja, capaz de prover seu próprio ambiente de desenvolvimento e posteriormente implementá-lo emoutros sistemas operacionais.
-    Ainda em Tanenbaum et al (2006, p.557), é informado que devido os navegadores, os servidores web utilizam HTTP (HyperText Transfer Protocol) como protocolo de comunicação. O HTTPé virtualmente implementado no topo da pilha TCP (Transmission Control Protocol), e por essarazão o núcleo do Apache assume que todos as requisições são desse tipo; por padrão, qualquer
-requisições UDP (User Datagram Protocol) não é processada sem que antes haja modificações no núcleo do Apache
