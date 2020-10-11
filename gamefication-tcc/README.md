@@ -20,5 +20,5 @@ SCRIPT:
   nome completo, 
  
  API:
- realizar consultas no banco por usuario(nome completo)
+Usando Node.js Express realizar consultas no banco com dados do usuario(nome completo) usando identificador unico (RA) 
 
